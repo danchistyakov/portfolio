@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    gap: 40px;
+    margin: 150px 70px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 500;
+    color: #808080;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.button {
+    background: linear-gradient(180deg, #1A1A1A 0%, #131313 100%);
+    box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset, 0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+    padding: 16px 32px;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .15s ease-in;
+    color: #808080;
+}
+
+.button:hover {
+    color: #FFFFFF;
+    box-shadow: 0 12px 12px 0 rgba(0,0,0,.1), inset 0 2px 4px 0 hsla(0,0%,100%,.1), inset 0 4px 6px 0 hsla(0,0%,100%,.12);
+}
+
+.portrait {
+    flex: 1 0 200px;
+    max-width: 300px;
+    object-fit: contain;
+}
